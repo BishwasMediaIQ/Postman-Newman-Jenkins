@@ -1,0 +1,13 @@
+{
+  "name": "postman-jenkins",
+  "version": "1.0.0",
+  "description": "Running postman through jenkins",
+  "scripts": {
+    "api-tests": "newman run test/Activation_Service_Test_Suite.postman_collection.json"
+  },
+  "author": "Bishwas",
+  "dependencies": {
+    "newman": "^3.6.0"
+  }
+
+}
